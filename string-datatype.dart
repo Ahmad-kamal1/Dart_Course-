@@ -28,7 +28,7 @@ void main() {
     combine.toLowerCase(),
   ); // this will convert all characters of variable combine to lowercase and print it.
   print(
-    name1.split("pattern"),
+    name1.split(""),
   ); // this will split the string in variable name1 based on pattern and print it.
   print(
     name1.contains("g"),
