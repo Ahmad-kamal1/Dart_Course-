@@ -27,4 +27,12 @@ void main() {
   print(
     combine.toLowerCase(),
   ); // this will convert all characters of variable combine to lowercase and print it.
+  print(
+    name1.split("pattern"),
+  ); // this will split the string in variable name1 based on pattern and print it.
+  print(
+    name1.contains("g"),
+  ); // this will check if character "g" is present in variable name1 or not and print true / false accordingly.
+  print(name1.replaceAll(name1, "Dart language"));  // this will replace all characters of variable name1 with "Dart language" and print it.
 }
+
