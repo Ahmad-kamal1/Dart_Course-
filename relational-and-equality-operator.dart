@@ -17,4 +17,11 @@ void main() {
   bool smallerthanequal = x <= y; // Is x smallerthanequal than y.
   bool equal = x == y; // Is x equal to y.
   bool notequal = x != y; // Is x not equal to y.
+
+  print(greater);
+  print(smaller);
+  print(graterthanequal);
+  print(smallerthanequal);
+  print(equal);
+  print(notequal);
 }
