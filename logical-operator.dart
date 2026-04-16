@@ -21,4 +21,15 @@ void main() {
 */
   bool result = (a > b) && (b < a);
   print("Result of AND operator (&&): $result");
+  /* 
+  OR operator (||):
+
+  true + true = true
+  true + false = true
+  false + true = true
+  false + false = false
+
+*/
+  result = (a < b) || (b > a);
+  print("Result of OR operator (||): $result");
 }
