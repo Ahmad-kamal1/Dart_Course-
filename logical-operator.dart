@@ -32,4 +32,13 @@ void main() {
 */
   result = (a < b) || (b > a);
   print("Result of OR operator (||): $result");
+  /*  
+  NOT operator (!):
+
+  !true = false
+  !false = true
+
+*/
+  result = !(a > b);
+  print("Result of NOT operator is: $result");
 }
